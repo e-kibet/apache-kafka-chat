@@ -7,6 +7,6 @@ app.post("/chat", async function (req, res, next) {
     producer.sendMessageToUser(req, res, next);
 })
 
-app.listen(5000, () => {
+app.listen(6900, () => {
     console.log("Server started successfully!");
 })
